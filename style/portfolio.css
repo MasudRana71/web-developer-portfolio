@@ -7,6 +7,10 @@
 }
 
 /* shared style  */
+.my-image {
+    width: 600px;
+}
+
 .secondary-bg {
     background-color: #FFF8F3;
 }
@@ -24,6 +28,11 @@
     background: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
+}
+
+.banner-content a {
+    text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -95,22 +104,26 @@ nav li a {
     justify-content: space-around;
 
 }
+
 .section-title {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 60px;
-    
+
 }
+
 .about-description {
     font-size: 18px;
     color: #8d8d8d;
     margin-bottom: 60px;
 }
+
 .item-title {
     font-size: 20px;
     color: #8d8d8d;
     margin-bottom: 10px;
 }
+
 .item-description {
     font-weight: 600;
 }
@@ -123,15 +136,91 @@ nav li a {
     text-align: center;
 
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
-    gap: 80px;       
+    gap: 80px;
 }
-.skill{
-   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+
+.skill {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    
-    padding: 20px 40px ;
+
+    padding: 20px 40px;
+}
+
+/* resume section start  */
+.resume {
+    padding: 0px 250px;
+    margin: 130px 0px;
+
+}
+
+.skills-title {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 80px;
+}
+
+.experience-sub-title,
+.experience-description {
+    color: #adacac;
+}
+
+.cv {
+    display: block;
+    margin: 100px auto;
+
+}
+
+/* contact section style start  */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 250px;  
+}
+.contact-description{
+    padding: 0px 150px;
+}
+.messaging-area{
+    padding: 0px 150px;
+}
+.social-media a{
+    margin: 0px 20px 0px 0px;
+}
+.social-media {
+    margin: 30px 0px;
+}
+footer input[type="text"]{
+    height: 64px;
+    width: 400px;
+    border-radius: 5px;
+    background-attachment: white;
+    border: none;
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+footer input[type="email"]{
+    height: 64px;
+    width: 400px;
+    border-radius: 5px;
+    background-attachment: white;
+    border: none;
+    padding: 0px 20px;
+}
+footer textarea{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background-attachment: white;
+    border: none;
+    padding: 20px;
+    margin: 10px 0px;
 }
